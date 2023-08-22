@@ -22,7 +22,7 @@ namespace WebAPIDemos.Controllers.Data
                         DateRead=DateTime.Now.AddDays(-10),
                         Rate=4,
                         Genre="Biography",
-                        Author="First Outhor",
+                  
                         CoverUrl="https....",
                         DateAdded=DateTime.Now,
                     },
@@ -32,7 +32,7 @@ namespace WebAPIDemos.Controllers.Data
                         Description = "2st Book Description",
                         IsRead = true,
                         Genre = "Biography",
-                        Author = "Second Outhor",
+                        
                         CoverUrl = "https....",
                         DateAdded = DateTime.Now,
                     }

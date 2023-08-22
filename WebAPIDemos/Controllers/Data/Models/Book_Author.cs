@@ -1,0 +1,11 @@
+﻿namespace WebAPIDemos.Controllers.Data.Models
+{
+    public class Book_Author
+    {
+        public int ıd { get; set; }
+        public int BookId { get; set; }
+        public Book Book { get; set; }
+        public int AuthorId { get; set; }
+        public Author Author { get; set; }
+    }
+}

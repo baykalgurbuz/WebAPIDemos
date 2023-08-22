@@ -37,6 +37,8 @@ namespace WebAPIDemos
 
             //Configure The Service
             services.AddTransient<BooksService>();
+            services.AddTransient<AuthorService>();
+            services.AddTransient<PublisherService>();
 
             services.AddDbContext<AppDbContext>(options => options.UseSqlServer(ConnectionString));
             services.AddSwaggerGen(c =>
